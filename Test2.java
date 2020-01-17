@@ -1,9 +1,8 @@
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.Assert.*;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
-public class Test2 {
+public class JTest2 {
 
 	@Test
 	public void test_length() {
@@ -37,4 +36,5 @@ public class Test2 {
 
 		assertTrue(snowboard.isDirectional());
 	}
+
 }

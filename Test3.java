@@ -1,9 +1,8 @@
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.Assert.*;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
-public class Test3 {
+public class JTest3 {
 	@Test
 	public void test_length() {
 		Snowboard snowboard = new Snowboard(10,Snowboard.shapes[0],true,20.3f);

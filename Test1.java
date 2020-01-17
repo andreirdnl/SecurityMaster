@@ -1,9 +1,9 @@
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.*;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
-class Test1 {
-	
+public class JTest1 {
+
 	@Test
 	public void test_length() {
 		Snowboard snowboard = new Snowboard(10,Snowboard.shapes[0],true,20.3f);
@@ -36,4 +36,5 @@ class Test1 {
 
 		assertTrue(snowboard.isDirectional());
 	}
+
 }
