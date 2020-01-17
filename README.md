@@ -1,2 +1,2 @@
 # SecurityMaster
-for dumb proj from uni
+project for uni
