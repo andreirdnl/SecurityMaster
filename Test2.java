@@ -2,7 +2,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class JTest2 {
+public class Test2 {
 
 	@Test
 	public void test_length() {

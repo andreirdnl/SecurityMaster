@@ -2,7 +2,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class JTest3 {
+public class Test3 {
 	@Test
 	public void test_length() {
 		Snowboard snowboard = new Snowboard(10,Snowboard.shapes[0],true,20.3f);
